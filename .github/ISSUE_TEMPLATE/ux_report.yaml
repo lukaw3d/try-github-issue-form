@@ -26,14 +26,13 @@ body:
     attributes:
       label: PRODUCT ENVIRONMENT
       description: Provide all relevant information below as to where the issue occurs within the product
-      placeholder: Paste here
   - type: textarea
     id: description
     attributes:
       label: DESCRIPTION OF ISSUE
       description: Describe the issue itself. Be as detailed as possible, preferably add a screenshot or recording to explain the issue further
       placeholder: |
-        Paste here
+        Describe here
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
@@ -51,10 +50,10 @@ body:
     attributes:
       label: STEPS TO REPRODUCE
       description: Describe exactly how to reproduce the issue
-      placeholder: Paste here
+      placeholder: Write here
   - type: textarea
     id: alternatives
     attributes:
       label: ALTERNATIVES AND SUGGESTIONS
       description: Share any suggestions on how to solve the issue
-      placeholder: Paste here
+      placeholder: Write here
