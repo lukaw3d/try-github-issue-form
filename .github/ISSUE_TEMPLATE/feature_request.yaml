@@ -20,7 +20,7 @@ body:
     id: summary
     attributes:
       label: SUMMARY
-      description: Briefly describe the new feature/improvement
+      description: Describe the new feature/improvement briefly below
       placeholder: Write here
   - type: input
     id: component-name
