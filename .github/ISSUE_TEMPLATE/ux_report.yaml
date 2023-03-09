@@ -26,6 +26,7 @@ body:
     attributes:
       label: PRODUCT ENVIRONMENT
       description: Provide all relevant information below as to where the issue occurs within the product
+      placeholder: Write here
   - type: textarea
     id: description
     attributes:
