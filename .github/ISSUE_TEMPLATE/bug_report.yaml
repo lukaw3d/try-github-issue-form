@@ -28,7 +28,10 @@ body:
       label: STEPS TO REPRODUCE
       description: Describe exactly how to reproduce the problem
       placeholder: |
-        Write here
+        1. Open https://... in Chrome
+        2. Click...
+        3. See error...
+
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
