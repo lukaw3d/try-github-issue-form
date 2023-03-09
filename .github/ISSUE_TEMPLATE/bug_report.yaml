@@ -33,9 +33,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: actual
+    id: expected
     attributes:
-      label: ACTUAL RESULTS
+      label: EXPECTED BEHAVIOR
       description: Describe what you expected to happen
       placeholder: |
         Write here
