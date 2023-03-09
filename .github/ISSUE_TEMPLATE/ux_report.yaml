@@ -5,10 +5,6 @@ labels: ["ux/design"]
 assignees: ["donouwens", "lukaw3d"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        # UX/UI Design Change Report
   - type: checkboxes
     id: urgency
     attributes:
