@@ -19,8 +19,8 @@ body:
         - label: Medium
         - label: Low
         - label: I don't know
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: product-where
     attributes:
