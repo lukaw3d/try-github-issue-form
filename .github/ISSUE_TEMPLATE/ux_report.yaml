@@ -21,7 +21,7 @@ body:
         - label: I don't know
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: product-where
     attributes:
       label: PRODUCT ENVIRONMENT
@@ -36,6 +36,8 @@ body:
         Paste here
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: true
   - type: checkboxes
     id: viewport
     attributes:
