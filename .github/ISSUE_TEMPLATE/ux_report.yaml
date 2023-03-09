@@ -33,7 +33,7 @@ body:
       label: DESCRIPTION OF ISSUE
       description: Describe the issue itself. Be as detailed as possible, preferably add a screenshot or recording to explain the issue further
       placeholder: |
-        Paste here and drag screenshots
+        Paste here
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
   - type: checkboxes
