@@ -1,0 +1,55 @@
+name: UX/UI Design Change Report
+description: Use this template for tracking UX/UI Design changes.
+title: "[UX]: "
+labels: ["ux/design"]
+assignees: ["donouwens"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: urgency
+    attributes:
+      label: URGENCY
+      description: Is this issue blocking your progress?
+      options:
+        - label: High
+        - label: Medium
+        - label: Low
+        - label: I don't know
+      validations:
+        required: true
+  - type: textarea
+    id: product-where
+    attributes:
+      label: PRODUCT ENVIRONMENT
+      description: Provide all relevant information below as to where the issue occurs within the product
+      placeholder: Paste here
+  - type: textarea
+    id: description
+    attributes:
+      label: DESCRIPTION OF ISSUE
+      description: Describe the issue itself. Be as detailed as possible, preferably add a screenshot or recording to explain the issue further
+      placeholder: Paste here
+  - type: checkboxes
+    id: viewport
+    attributes:
+      label: DEVICE / VIEWPORT
+      description: Share whether this occurs on desktop, mobile or both
+      options:
+        - label: Desktop
+        - label: Mobile
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: STEPS TO REPRODUCE
+      description: Describe exactly how to reproduce the issue
+      placeholder: Paste here
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: ALTERNATIVES AND SUGGESTIONS
+      description: Share any suggestions on how to solve the issue
+      placeholder: Paste here
