@@ -28,7 +28,6 @@ body:
         2. Click...
         3. See error...
 
-
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
       required: true
