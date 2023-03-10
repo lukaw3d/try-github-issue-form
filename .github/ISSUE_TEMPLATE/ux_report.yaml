@@ -47,7 +47,11 @@ body:
     attributes:
       label: STEPS TO REPRODUCE
       description: Describe exactly how to reproduce the issue
-      placeholder: Write here
+      placeholder: |
+        1. Open https://... in Chrome
+        2. Click...
+        3. See...
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
   - type: textarea
     id: alternatives
     attributes:
