@@ -15,8 +15,6 @@ body:
         - label: Medium
         - label: Low
         - label: I don't know
-    validations:
-      required: true
   - type: input
     id: product-where
     attributes:

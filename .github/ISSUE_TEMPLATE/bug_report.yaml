@@ -2,7 +2,6 @@ name: 🐛 Bug report
 description: Tell us what doesn’t work as it should.
 title: "[Bug]: "
 labels: ["bug"]
-assignees: []
 
 body:
   - type: checkboxes
